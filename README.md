@@ -27,3 +27,30 @@ Setup Frontend:
 
 Open browser:
 Open http://localhost:3000/ to access the frontend webpage which talks to backend server
+
+
+
+Technology Stack:
+
+Backend:
+Node.js with Express.js (web server)
+Google Gemini AI API (for AI mood analysis)
+Spotify Web API (for playlist data)
+
+Frontend:
+React.js (UI framework)
+CSS-in-JS (styling)
+
+Other tools:
+Git (version control)
+npm (package manager)
+
+Features:
+.AI-based mood analysis using Google Gemini, transforming user input mood into mood keywords.
+.Spotify playlist search integration using Spotify Web API based on AI-generated mood keywords.
+.Responsive, accessible React frontend user interface that allows users to enter mood and receive playlist recommendations.
+.Display of relevant playlist information including name, description, and direct Spotify URLs.
+.Robust backend built with Node.js and Express handling external API interactions securely with environment variables.
+.Error handling with informative messages and loading indicators for better user experience.
+.Easy to run locally with clear setup instructions and API key configuration.
+.Use of modern web technologies and APIs offering a smart, personalized music recommendation experience.
